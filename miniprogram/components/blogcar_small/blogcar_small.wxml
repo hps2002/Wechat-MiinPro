@@ -1,0 +1,16 @@
+<view class="blog">
+	<!-- 图片 -->
+	<view class="img-panel" wx:if="{{blog.img.length>0}}">
+		<image class="img"  src="{{blog.img[0]}}" mode="aspectFill"></image>
+	</view>
+	<view class="content" >
+	{{blog.content}}
+	</view>
+	<view class="userInfo">
+		<image class="blog-portrait" src="{{blog.userInfo.avatarUrl}}"></image>
+		<view class="blog-box">
+			<view>{{blog.userInfo.nickName}}</view>
+			<view class="blog-time">{{_createtime}}</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,2 @@
+<!--pages/address/address.wxml-->
+<button bindtap="onGetLocation">获取位置</button>

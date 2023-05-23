@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "blogcar": "../../components/blogcar/blogcar",
+    "commentcar": "../../components/commentcar/commentcar",
+    "ReplyInput":"../../components/ReplyInput/RepulyInput"
+  },
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": ""
+}

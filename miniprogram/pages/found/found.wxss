@@ -1,0 +1,67 @@
+.head{
+    display: flex;
+    align-items: center;
+    padding:10rpx;
+    background-color: #fff;
+    height: 100rpx;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    box-sizing: border-box;
+    border-bottom: 1rpx inset #f1f1f1;
+}
+.publish-container {
+    display: flex;
+    width: 68rpx;
+    height: 68rpx;
+    align-items: center;
+    justify-content: center;
+}
+.head .icon-fabu{
+    font-size: 48rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-container{
+    flex: 1;
+
+}
+.blog-list{
+    margin-top: 100rpx;
+}
+.bolg-panel{
+    margin-bottom: 20rpx;
+    box-sizing: border-box;
+}
+/* blogfooter */
+.footer {
+  margin-bottom: 20rpx;
+  display: flex;
+  height: 60rpx;
+  line-height: 60rpx;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+}
+
+.iconfont {
+  flex: 1;
+}
+
+.icon-dianzan {
+  font-size: 42rpx;
+}
+.icon-pinglun1{
+  font-size: 40rpx;
+}
+.icon-dianzan-copy{
+  font-size: 42rpx;
+  color: red;
+}
+.upNum{
+  font-size: 30rpx;
+}

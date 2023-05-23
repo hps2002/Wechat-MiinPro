@@ -1,0 +1,57 @@
+.blogdetailpanel{
+  box-sizing: border-box;
+  height: 650rpx;
+  background-color: #fff;
+}
+.state{
+  display: flex;
+  height: 60rpx;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  line-height: 60rpx;
+  text-align: center;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+  border-top: 1rpx inset #f1f1f1;
+}
+.commentNum{
+  font-size: 10;
+}
+.iconfont{
+  flex:1;
+}
+.icon-pinglun{
+  font-size: 30rpx;
+}
+.icon-dianzan-copy{
+  background-color: #fff;
+font-size: 32rpx;
+}
+.comment{
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.comment-input{
+  flex: 1;
+  height: 68rpx;
+  font-size: 28rpx;
+  border-radius: 50rpx;
+  background-color: #f5f5f5;
+  padding-left: 60rpx;
+}
+.comment-publish{
+  background-color: #ffd84d;
+  font-size: 24rpx;
+  margin: 15rpx;
+  border-radius: 50rpx;
+}
+.comment-list{
+  background-color: #fff;
+}
+.commentPanel{
+  box-sizing: border-box;
+}

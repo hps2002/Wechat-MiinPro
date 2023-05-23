@@ -1,0 +1,5 @@
+/* pages/service/service.wxss */
+.arear{
+    align-items: center;
+    text-align: center;
+}

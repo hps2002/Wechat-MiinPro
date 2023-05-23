@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "发现",
+
+  "usingComponents": {
+    "search":"../../components/search/search",
+    "blogcar":"../../components/blogcar/blogcar"
+  },
+  "enablePullDownRefresh": true
+}

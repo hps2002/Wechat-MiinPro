@@ -1,0 +1,1 @@
+"D:\网络203\校红会秘书部\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-8g88kgj39a457ec5 --n quickstartFunctions --r --project "D:\WeiChatApplet\家务派3" --report_first --report

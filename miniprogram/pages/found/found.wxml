@@ -1,0 +1,33 @@
+<view class="found">
+  <!-- 头部 -->
+  <view class="head">
+    <view class="publish-container" bind:tap="onPublish">
+      <icon class="iconfont icon-fabu"></icon>
+    </view>
+    <view class="search-container">
+      <search bind:search="onSearch"></search>
+    </view>
+  </view>
+  <!-- 博客卡片列表 -->
+  <view class="blog-list">
+    <block wx:for="{{blogList}}" wx:key="_id">
+      <view class="blog-panel">
+        <blogcar blog="{{item}}" bindtap="onToBlogDetail" data-index="{{index}}" data-blogid="{{item._id}}"></blogcar>
+        <!-- 点赞评论功能 -->
+        <view class="footer">
+          <!-- 取消点赞 -->
+          <icon class="iconfont icon-dianzan-copy" hidden="{{!uphidden}}" data-index="{{index}}" bindtap="onCancelThumbsUp">
+            <text>{{blogList[index].upuser.length}}</text>
+          </icon>
+          <!-- 点赞 -->
+          <icon class="iconfont icon-dianzan" hidden="{{uphidden}}" data-index="{{index}}" bindtap="onThumbsUp">
+            <text class="upNum">{{blogList[index].upuser.length}}</text>
+          </icon>
+          <!-- 评论 -->
+          <icon class="iconfont icon-pinglun1" bindtap="onComment" data-blogid="{{item._id}}" data-index="{{index}}" bindtap="onToComment">
+          </icon>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

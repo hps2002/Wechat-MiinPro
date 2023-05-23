@@ -1,0 +1,28 @@
+<view class="mine">
+				<view class="tips" hidden="{{hiddentips}}" bindtap="onLogin">
+								<view class="tips-img"></view>
+								<view class="tips-text">点击登录</view>
+				</view>
+				<view class="personmessage" hidden="{{!hiddentips}}">
+								<image class="user-img" src="{{userInfo.avatarUrl}}"></image>
+								<view class="userbox">
+												<view class="username">{{userInfo.nickName}}</view>
+								</view>
+				</view>
+				<!-- 地址 -->
+				<navigator class="adress"  url="../address/address">
+								<icon class="iconfont icon-dizhi">地址</icon>
+								<icon class="iconfont icon-dibudaohanglan-"></icon>
+				</navigator>
+				<!-- 历史订单 -->
+				<navigator class="historyorder" url="../order/order">
+								<icon class="iconfont icon-dingdan">订单</icon>
+								<icon class="iconfont icon-dibudaohanglan-"></icon>
+				</navigator>
+				<!-- 客服 -->
+				<navigator class="customerservice" url="../service/service">
+								<icon class="iconfont icon-kefu">客服</icon>
+								<icon class="iconfont icon-dibudaohanglan-"></icon>
+				</navigator>
+				<button class="exit" bindtap="onExit">退出登录</button>
+</view>

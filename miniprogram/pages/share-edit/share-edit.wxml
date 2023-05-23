@@ -1,0 +1,22 @@
+<view class="edit-container">
+    <textarea class="content" placeholder="当前的想法..." bindinput="onInput" maxlength="600" auto-focus bindfocus="onFocus" bindblur="onBlur"></textarea>
+    <!-- 发布行"footer"（一开始的时候是在最下面的）为了美观放在中间，其中class名字因为懒，所以不改了 -->
+    <view class="footer" style="bottom: {{footerbottom}}rpx;">
+        <text class="words-num">{{warnning}}</text>
+        <button class="publish" bindtap="onPublish">发布</button>
+    </view>
+    <view class="image-list">
+        <!-- 显示图片 -->
+        <block wx:for="{{images}}" wx:key="*this">
+            <view class="image-warp">
+                <image class="image" src="{{item}}" mode="aspectFill" bindtap="onPreviewIamge" data-imgsrc="{{item}}">
+                </image>
+                <icon class="iconfont icon-shanchu" bindtap="onDeleteImage"></icon>
+            </view>
+        </block>
+        <!-- 选择图片 -->
+        <view class="image-warp select-image" hidden="{{!selectimage}}" bindtap="onChooseimage">
+            <icon class="iconfont icon-jia"></icon>
+        </view>
+    </view>
+</view>

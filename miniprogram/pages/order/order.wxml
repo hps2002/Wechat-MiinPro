@@ -1,0 +1,6 @@
+<!--pages/order/order.wxml-->
+<view class="area" >
+    <text class="text">
+        出错了请联系管理员
+    </text>
+</view>

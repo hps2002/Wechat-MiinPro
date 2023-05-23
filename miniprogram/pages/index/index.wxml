@@ -1,0 +1,11 @@
+<view class="page">
+      <!-- 头部 -->
+  <view class="head">
+    <view class="publish-container" bind:tap="onPublish">
+      <icon class="iconfont icon-fabu"></icon>
+    </view>
+    <view class="search-container">
+      <search bind:search="onSearch"></search>
+    </view>
+  </view>
+</view>

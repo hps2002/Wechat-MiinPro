@@ -1,0 +1,9 @@
+<!-- 评论中弹出回复评论框 -->
+<view class="ReplyInput" hidden="{{!PutReplyInput}}">
+    <view class="area" bindtap="onExit"></view>
+    <view class="input-box">
+        <input class="input" placeholder="友善评论，文明发言" bindinput="onInput" 
+        bindfocus="onFocus" bindblur="onBlur" bindtap="onCheck"></input>
+        <button class="send" bindtap="onSend">回复</button>
+    </view>
+</view>

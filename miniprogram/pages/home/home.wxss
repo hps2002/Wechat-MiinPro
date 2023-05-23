@@ -1,0 +1,147 @@
+/* 导航栏视图的设置 */
+.daohang {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.daohang_2 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding-top: 20rpx;
+  height: 150rpx;
+}
+
+.pand {
+  height: 20rpx;
+}
+
+/* 第一个图标开始 */
+.nav11 {
+  padding: 15rpx;
+  height: 70rpx;
+  width: 70rpx;
+  text-align: center;
+  border-radius: 100rpx;
+}
+
+.icon1 {
+  height: 100%;
+  width: 100%;
+}
+
+/* 第一个图标结束 */
+/* 第一个图标开始 */
+.nav22 {
+  padding: 15rpx;
+  height: 70rpx;
+  width: 70rpx;
+  text-align: center;
+  border-radius: 100rpx;
+}
+
+.icon2 {
+  height: 100%;
+  width: 100%;
+}
+
+/* 第二个图标结束 */
+/* 第三个图标开始 */
+.nav33 {
+  padding: 15rpx;
+  height: 70rpx;
+  width: 70rpx;
+  text-align: center;
+  border-radius: 100rpx;
+}
+
+.icon3 {
+  height: 100%;
+  width: 100%;
+}
+
+/* 第三个图标结束 */
+
+/* 第二条导航栏开始 */
+/* 第一个图标开始 */
+.nav11_2 {
+  padding: 15rpx;
+  height: 70rpx;
+  width: 70rpx;
+  text-align: center;
+  border-radius: 100rpx;
+}
+
+.icon1_2 {
+  height: 100%;
+  width: 100%;
+}
+
+/* 第一个图标结束 */
+/* 第二个图标开始 */
+.nav22_2 {
+  padding: 15rpx;
+  height: 70rpx;
+  width: 70rpx;
+  text-align: center;
+  border-radius: 100rpx;
+}
+
+.icon2_2 {
+  height: 100%;
+  width: 100%;
+}
+
+/* 第二个图标结束 */
+/* 第三个图标开始 */
+.nav3_2 {
+  text-align: center;
+}
+
+.nav33_2 {
+  padding: 15rpx;
+  height: 70rpx;
+  width: 70rpx;
+  text-align: center;
+  border-radius: 100rpx;
+}
+
+.icon3_2 {
+  height: 100%;
+  width: 100%;
+}
+
+/* 第三个图标结束 */
+
+/* 第二条导航栏结束 */
+
+/* 下拉推荐开始 */
+.selected {
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
+  background-color: #ffd84d;
+}
+
+.text {
+  text-align: center;
+}
+
+/* 标题设置 */
+.seltitle {
+  font-size: 40rpx;
+}
+
+.blog-panel {
+  margin-top: 20rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  border-radius: 20rpx;
+}
+.blog-list-panel{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+/* 下拉推荐结束 */

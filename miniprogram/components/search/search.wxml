@@ -1,0 +1,7 @@
+<view class="search">
+    <input class="searchbar" placeholder="{{placeholder}}" bindinput="onInput"></input>
+    <view class="searchicon-container" bing:tap="onSearch">
+        <icon class="iconfont icon-sousuo " bindtap="onSearch"></icon>
+    </view>
+    <!-- <button class="searchbutton">搜索</button> -->
+</view>

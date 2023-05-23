@@ -1,0 +1,98 @@
+<view class="jiawupai">
+	<!-- 搜索框 -->
+	<searchinput>
+	</searchinput>
+</view>
+
+<view class="daohang">
+	<!-- 第一个图标开始 -->
+	<view class="nav1">
+		<navigator class="nav11" url="../../pages/index/index">
+			<image class="icon1" src="/images/daohang/community.png">
+			</image>
+			<text>社区</text>
+		</navigator>
+	</view>
+
+	<!-- 第二个图标开始 -->
+	<view class="nav2">
+		<navigator class="nav22" url="../index/index">
+			<image class="icon2" src="/images/daohang/nanny.png">
+			</image>
+			<text>保姆</text>
+		</navigator>
+	</view>
+
+	<!-- 第三个图标开始 -->
+	<view class="nav3">
+		<navigator class="nav33" url="../index/index">
+			<image class="icon3" src="/images/daohang/maternity.png">
+			</image>
+			<text>月嫂</text>
+		</navigator>
+	</view>
+	<!-- 第三个图标结束 -->
+</view>
+<!-- 导航栏1结束 -->
+
+<view class="pand">
+</view>
+
+<!-- 导航栏2开始 -->
+<view class="daohang_2">
+	<!-- 第一个图标开始 -->
+	<view class="nav1_2">
+		<navigator class="nav11_2" url="../index/index">
+			<image class="icon1_2" src="/images/daohang/Cleaning.png">
+			</image>
+			<text>保洁</text>
+		</navigator>
+	</view>
+	<!-- 第一个图标结束 -->
+
+	<!-- 第二个图标开始 -->
+	<view class="nav2_2">
+		<navigator class="nav22_2" url="../index/index">
+			<image class="icon2_2" src="/images/daohang/olding.png">
+			</image>
+			<text>护工</text>
+		</navigator>
+	</view>
+	<!-- 第二个图标结束 -->
+
+	<!-- 第三个图标开始 -->
+	<view class="nav3_2">
+		<navigator class="nav33_2" url="../index/index">
+			<image class="icon3_2" src="/images/daohang/hourly_worker.png">
+			</image>
+		</navigator>
+		<text class="text3_2">钟点工</text>
+	</view>
+	<!-- 第三个图标结束 -->
+</view>
+<!-- 导航栏2结束 -->
+<!-- 导航栏结束 -->
+
+<!-- 推荐开始 -->
+<view class="selected">
+	<view class="text">
+		<text class="seltitle">新鲜事</text>
+	</view>
+	<view class="blog-list-panel">
+		<view class="blog-list">
+			<block wx:for="{{blogList}}" wx:key="{{_id}}">
+				<view class="blog-panel">
+					<blogcar_small blog="{{item}}" bindtap="onToblogDetail" data-blogid="{{item._id}}" data-index="{{index}}"></blogcar_small>
+				</view>
+			</block>
+		</view>
+		<view class="blog-list2">
+			<block wx:for="{{blogList2}}" wx:key="{{_id}}">
+				<view class="blog-panel">
+					<blogcar_small blog="{{item}}" bindtap="onToblogDetail" data-blogid="{{item._id}}" data-index="{{index}}"></blogcar_small>
+				</view>
+			</block>
+		</view>
+	</view>
+</view>
+<!-- 推荐结束 -->

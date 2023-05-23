@@ -1,0 +1,34 @@
+<view class="blogdetail">
+  <!-- blog内容 -->
+  <view class="blogdetailpanel">
+    <blogcar blog="{{blog}}"></blogcar>
+  </view>
+  <!-- bolg状态栏 -->
+  <view class="state">
+    <icon class="iconfont icon-pinglun">
+      <text class="commentNum">{{commentNum}}</text>
+    </icon>
+    <!-- 点赞 -->
+    <icon class="iconfont icon-dianzan" hidden="{{upshow}}" bindtap="onUp">
+      <text>{{blog.upuser.length}}</text>
+    </icon>
+    <!-- 取消点赞 -->
+    <icon class="iconfont icon-dianzan-copy" hidden="{{!upshow}}" bindtap="onCancelUp">
+      <text>{{blog.upuser.length}}</text>
+    </icon>
+  </view>
+  <!-- 评论开始 -->
+  <view class="comment">
+    <input class="comment-input" placeholder="请文明发言，友善评论" bindinput="onInput" bindtap="onCheck" value="{{content}}"></input>
+    <button class="comment-publish" bindtap="onSend">评论</button>
+  </view>
+  <!-- 所有的评论 -->
+  <view class="comment-list">
+    <block wx:for="{{commentList}}" wx:key="{{_id}}">
+      <view class="comment-panel">
+        <commentcar comment="{{item}}" bindtap="onReply" data-commentid="{{item._id}}"></commentcar>
+      </view>
+    </block>
+    <ReplyInput PutReplyInput="{{PutRepliInput}}" CommentId="{{CommentId}}"></ReplyInput>
+  </view>
+</view>

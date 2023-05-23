@@ -1,0 +1,21 @@
+<view class="comment">
+  <!-- 头像 -->
+  <image class="comment-portrait" src="{{comment.avatarUrl}}"></image>
+  <view class="comment-box">
+    <!-- 昵称 -->
+    <view class="comment-nickName">{{comment.nickName}}</view>
+    <!-- 文字内容 -->
+    <view class="comment-content">{{comment.content}}</view>
+    <!-- 时间 -->
+    <view class="comment-time">{{_createtime}}</view>
+    <view class="reply-list">
+      <!-- 评论回复列表 -->
+      <block wx:for="{{ReplyList}}" wx:key="{{_id}}">
+        <view class="reply-box">
+          <view class="user-name"></view>
+          <view class="reply-content"></view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/order/order",
+    "pages/found/found",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/logs/logs",
+    "pages/share-edit/share-edit",
+    "pages/blog-comment/blog-comment",
+    "pages/function/function",
+    "pages/address/address",
+    "pages/service/service"
+  ],
+  "window": {
+    "backgroundColor": "#ffd84d",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffd84d",
+    "navigationBarTitleText": "家务派",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/tab/home.png",
+        "selectedIconPath": "images/tab/home_select.png"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "text": "发现",
+        "iconPath": "images/tab/found.png",
+        "selectedIconPath": "images/tab/found_select.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tab/my.png",
+        "selectedIconPath": "images/tab/my_select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "cloud": true
+}

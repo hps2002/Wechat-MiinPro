@@ -1,0 +1,44 @@
+.blog {
+    padding-left: 5rpx;
+    background-color: #fff;
+    width: 325rpx;
+    border-radius: 20rpx;
+}
+
+
+
+.img {
+    margin-top: 20rpx;
+    width: 100%;
+}
+
+.content {
+    /* display: -webkit-box; */
+    overflow: hidden;
+    /* text-overflow: ellipsis;
+    white-space: normal !important;
+    -webkit-line-clamp: 3;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical; */
+}
+
+.userInfo {
+    display: flex;
+    margin-top: 5rpx;
+}
+
+.blog-portrait {
+    width: 64rpx;
+    height: 64rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+}
+
+.blog-box {
+    flex: 1;
+}
+
+.blog-time {
+    font-size: 24rpx;
+    color: #939393;
+}

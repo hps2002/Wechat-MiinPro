@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "searchinput":"../../components/searchinput/searchinput",
+    "blogcar_small":"../../components/blogcar_small/blogcar_small"
+  }
+}

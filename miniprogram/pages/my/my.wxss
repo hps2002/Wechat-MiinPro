@@ -1,0 +1,129 @@
+.mine {
+    box-sizing: border-box;
+}
+
+.tips {
+    background-color: #ffd84d;
+    justify-content: center;
+    align-items: center;
+    height: 139rpx;
+    display: flex;
+}
+
+.tips-img {
+    margin-left: 15rpx;
+    background-color: #f1f1f1;
+    padding: 20rpx;
+    border-radius: 50%;
+    height: 84rpx;
+    width: 84rpx;
+    margin-bottom: 15rpx;
+}
+
+.tips-text {
+    flex: 1;
+    margin-left: 15rpx;
+}
+
+.personmessage {
+    background-color: #ffd84d;
+    border-bottom: inset #f1f1f1;
+    height: 139rpx;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.user-img {
+    margin-left: 15rpx;
+    height: 104rpx;
+    width: 104rpx;
+    margin-bottom: 20rpx;
+    border-radius: 50%;
+}
+.userbox{
+    flex:1;
+    margin-left: 20rpx;
+}
+.username{
+    font-size: 30rpx;
+}
+
+
+
+
+.iconfont {
+    margin-left: 20rpx;
+    flex: 1;
+}
+
+.adress {
+    margin-top: 25rpx;
+    height: 80rpx;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    line-height: 80rpx;
+    display: flex;
+}
+.iconfont icon-dizhi{
+width: 100rpx;
+}
+
+.historyorder {
+    margin-top: 25rpx;
+    height: 80rpx;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    line-height: 80rpx;
+    display: flex;
+}
+
+.customerservice {
+    margin-top: 25rpx;
+    height: 80rpx;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    line-height: 80rpx;
+    display: flex;
+}
+
+.bindphone {
+    margin-top: 25rpx;
+    height: 80rpx;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    line-height: 80rpx;
+    display: flex;
+}
+
+.setup {
+    margin-top: 25rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.exit {
+    margin-top: 25rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    width: 250rpx;
+    background-color: #ffd84d;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15rpx;
+}
+
+/* 图标样式 */
+.icon-dibudaohanglan- {
+    margin-left:500rpx;
+}
+
